@@ -1,0 +1,31 @@
+name: env_nce24
+channels:
+  - defaults
+dependencies:
+  - h5py==3.7.0
+  - pip==23.0.1
+  - python==3.10
+  - pip:
+      - gdown==5.1.0
+      - ipython==8.17.2
+      - jupyter==1.0.0
+      - keras-lmu==0.7.0
+      - matplotlib==3.7.1
+      - networkx==3.0
+      - nir==1.0.1
+      - numpy==1.24.2
+      - onnxruntime==1.15.0
+      - pandas==2.0.1
+      - pillow==9.3.0
+      - psutil==5.9.5
+      - rockpool==2.7
+      - scikit-learn==1.2.2
+      - scipy==1.10.1
+      - seaborn==0.12.2
+      - tensorflow==2.15.0.post1
+      - tonic==1.4.3
+      - torch==2.0.1 
+      - torchaudio==2.0.2 
+      - torchmetrics==0.11.4
+      - torchvision==0.15.2 
+      - tqdm==4.65.0
