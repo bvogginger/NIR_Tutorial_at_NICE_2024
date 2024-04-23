@@ -6,6 +6,16 @@ This is the landing page for the tutorial on the [Neuromorphic Intermediate Repr
 
 *This page is under construction and will be updated before the event*
 
-**If you plan to join the tutorial at NICE 2024, please check this page again before travelling to the conference. We might ask you to download and install software beforehand.**
+### Tutorial Agenda:
+
+- Introduction to NIR, its motivation and its design (presentation)
+- Train SNN in one framework and deploy in another framework using NIR (notebook)
+- Q&A / break
+- Live demo: Deployment of SCNN on SpiNNaker2 ([Notebook](notebooks/spinnaker2_demo/spinnaker2_demo.ipynb))
+- NIR behind the scenes: Synfire Chain with NIR and Brian2 ([Notebook](notebooks/nir_to_brian2/nir_to_brian2.ipynb))
+- Direction for Future, Q&A, Feedback and discussion
+
+
+**You have questions about NIR or need support? Please join us on [Discord](https://discord.gg/JRMRGP9h3c).**
 
 ![Image NIR platforms](figures/nir_frameworks.png)
