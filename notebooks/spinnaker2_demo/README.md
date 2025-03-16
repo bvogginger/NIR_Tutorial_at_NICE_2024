@@ -21,19 +21,27 @@ conda activate s2_demo
 3. Install dependencies
 
 ```
-conda install -c conda-forge jupyterlab
-conda install -c conda-forge ipywidgets
-conda install -c conda-forge nb_conda_kernels
+conda install -c conda-forge jupyterlab ipywidgets nb_conda_kernels
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda install -c conda-forge tonic
 ```
 
-4. Install NIR from source
+New:
+
 ```
-pip install git+https://github.com/neuromorphs/NIR.git
+conda install -c conda-forge jupyterlab ipywidgets nb_conda_kernels
+pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cpu
 ```
 
-5. Install py-spinnaker2 with s2-sim2lab-app to this conda environment as described [here](https://gitlab.com/spinnaker2/py-spinnaker2#installation).
+
+4. Install py-spinnaker2 with s2-sim2lab-app to this conda environment as described [here](https://gitlab.com/spinnaker2/py-spinnaker2#installation).
+
+5. Install tonic
+
+```
+pip install tonic
+```
+
 
 6. Start jupyter lab
 
